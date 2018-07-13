@@ -5,10 +5,10 @@ var map
 var markers = []
 
 
-
-navigator.serviceWorker.register('/sw.js').then(function(reg){
+//register a service worker
+navigator.serviceWorker.register('/sw.js').then(function (reg) {
   console.log('sw was registered');
-}).catch(function(err){
+}).catch(function (err) {
   console.log('registration failed');
 });
 /**
