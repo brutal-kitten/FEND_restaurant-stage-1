@@ -88,15 +88,16 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-#breadcrumb {
+.home {
     padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 0;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
     margin: 0;
     width: 100%;
 		padding-left: 0;
+		text-align:left;
 }
 
 /* Display list items side by side */
